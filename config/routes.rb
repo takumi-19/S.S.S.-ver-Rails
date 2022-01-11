@@ -23,3 +23,5 @@ Rails.application.routes.draw do
   resources :supporters, only: [:index, :show, :edit, :update]
 
 end
+
+
